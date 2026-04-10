@@ -11,7 +11,7 @@ Two versions of the tool are available in this repository:
 | Version | File | Description |
 |---|---|---|
 | **Packaged library** *(recommended)* | `pure_kinetics/` + `run_analysis.py` | Modular Python package; install with pip |
-| **Legacy script** | `Céline_Fluorescence_Script_Annotated.py` | Original single-file annotated script |
+| **Legacy script** | `Kinetic_Analysis_Fluorescence_Script_Annotated.py` | Original single-file annotated script |
 
 ---
 
