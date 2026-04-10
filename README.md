@@ -4,7 +4,7 @@
 
 This repository provides tools for automated kinetic analysis of time-course fluorescence data (mVenus, eYFP, or mCherry) from PURE system experiments. A four-parameter sigmoid model is fitted to each replicate of each condition, and key kinetic parameters are extracted. Outputs include per-condition plots and an Excel file with all calculated metrics.
 
-The sigmoid model is used as described in Blanken et al. 2019 *Phys. Biol.* 16 045002 ([DOI 10.1088/1478-3975/ab0c62](https://doi.org/10.1088/1478-3975/ab0c62)).
+The sigmoid model is used as described in Blanken et al. 2019 *Phys. Biol.* 16 045002 ([DOI 10.1088/1478-3975/ab0c62](https://doi.org/10.1088/1478-3975/ab0c62)) and in Doerr et al. 2019 Phys. Biol. 16 025001 ([DOI 10.1088/1478-3975/aaf33d](https://doi.org/10.1088/1478-3975/aaf33d)).
 
 Two versions of the tool are available in this repository:
 
@@ -190,7 +190,7 @@ from pure_kinetics import (
 | Feature | Current implementation | Possible extension |
 |---|---|---|
 | Model | 4-parameter sigmoid | Extend via `sigmoid_model()` for alternative kinetic shapes |
-| Packaging | Python library (`pure_kinetics`) | — |
+| Packaging | Python library (`pure_kinetics`) | Upload library to PyPI |
 | Time-point handling | Equally spaced time points required | Interpolation or adaptive windowing for uneven sampling |
 | Fit diagnostics | Visual inspection via plots | Export R², residuals, or confidence intervals |
 | Parameter bounds | Unconstrained (heuristic initial guesses) | User-defined bounds for specific instruments or conditions |
